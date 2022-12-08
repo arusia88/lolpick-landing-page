@@ -14,6 +14,7 @@ $(function() {
 
             console.info("Image strings loaded from Apple API.");
             var appInfo = json.results[0];
+            appInfo.trackName = "LOLPICK"
 
             // Set favicon
             $('link[rel="shortcut icon"]').attr("href", appInfo.artworkUrl512);
@@ -57,7 +58,8 @@ $(function() {
             // Set App Store link using the iOS app ID if it is not set manually in _config.yml
             var $appStoreLink = $(".appStoreLink");
             if ($.trim($appStoreLink.attr('href')).length == 0) {
-                $($appStoreLink).attr("href", appInfo.trackViewUrl);
+                // TODO: Update after regisster appstore
+                // $($appStoreLink).attr("href", appInfo.trackViewUrl);
             }
 
             console.info(appInfo);
