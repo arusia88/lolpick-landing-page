@@ -1,65 +1,46 @@
 ---
 layout: page
-title: What's New
+title: 패치노트
 include_in_header: true
 ---
 
 # Changelog
-Here you can keep a changelog for your app. Edit the markdown based CHANGELOG.md which is located in the _pages directory. The changelog below is simply an example changelog that serves to exemplify how the markdown can be used. You can be as creative as you want with the markdown.
+새롭게 추가되는 기능과 변경된 사항을 투명하게 공유 하고 피드백 드리기 위해 만든 공간 입니다. 올바른 유저의 의견은 수렴하고 지속적으로 발전해 나갈 수 있도록 노력하겠습니다. 
 
-<br>
-
-### `Latest`
-# **Version 2.0**
-This is the first update to our app. Jeez **goodness** by kept more sensually a much far proper exotically precise [here is a link](https://www.google.com) and and illicit hey uninspiring the more sat honey knelt before before bearish bowed lorikeet wolf grandly instead diligently and rhinoceros imperative.
-
-#### What's New
-- Much far proper exotically precise unaccountable.
-- [Changes to Privacy Policy](/privacypolicy)
-
-#### Bug Fixes
-- Much far proper exotically precise unaccountable.
-- [Changes to Privacy Policy](/privacypolicy)
-
-<br>
-
-### **Version 2.1**
-Abnormal and formidable against much the before well improper more spent far heron amicably iguana plainly swanky upon mammoth **much paid darn some tapir** some glared save crud more regarding one accommodating gosh cannily and on hungry a more goodness inside merry yikes wedded versus because some a a a shined anteater goldfinch jeez up so and this this a.
-
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
-
-<br>
-
-________
 <br>
 
 ### `Initial Release`
 # **Version 1.0**
-Cracked a more and iguana a without some echidna a abnormal hello and beat thanks jeepers gnu jeepers until up depending for drooled awfully angelfish relentless much a well wasp some in impala darn and overate greedily wow kookaburra beneath much wistful fluid until and lemming less armadillo redoubtable after much capybara wow that hence interbred timorous loosely oh divisively wherever because jeepers until since as that goodness roadrunner insanely belated physic jeepers hey jeepers much the beside steadfastly up toward indubitably this goodness playful.
+리그오브레전드를 시즌 2부터 하기 시작했습니다. 게임을 하고 나면 왜 난 잘했는데 게임은 졌을까, 내가 잘못한 부분은 무엇일까 라는 고민을 할때가 많았는데, 물어볼 사람이 주위에 딱히 없었습니다. 유명한 유튜버나 유명한 bj 들에게 유료로 거금을 주고 피드백을 받는 것을 보면서 부럽기도 했지만 무리하게 과금해서까지 피드백은 받고 싶지는 않았습니다. 딱 플레티넘 이상의 나보다 잘하는 유저에게 한번 피드백을 받고 싶었는데 어려웠습니다. 거창한 느낌의 피드백 보다는 멘토링이란 단어가 어울렸네요. 참고로 전 실~골 유저입니다.(아주 잠시 실버2로 산책 온 상태입니다.) 그래서 그냥 내가 이런 플랫폼을 만들어서 내가 써보자 해서 시작하게 되었습니다.<br>
+첫번째 버전은 롤멘토와 유저를 매칭하는데 필요한 필수 기능 구현에 집중했습니다.
+
+#### What's New
+  - 일정 협의를 위한 1:1 채팅 기능
+  - 멘토링 신청 등록 / 신청 게시글 리스트 
+  - 파트너 멘토 리스트
+  - 강의 진행 시스템 구현<br>강의 요청(수락)-> 강의 확정 -> 디스코드 링크 생성 -> 강의 진행 -> 수강(강의) 확인 -> 리뷰
+  - 강의 30분 전 디스코드 멘토링 방 생성 기능
+  - 멘토링 결제 시스템
 
 <br>
 
 ## **Version 1.1**
-Abnormal and formidable against much the before well improper more spent far heron amicably iguana plainly swanky upon mammoth **much paid darn some tapir** some glared save crud more regarding one accommodating gosh cannily and on hungry a more goodness inside merry yikes wedded versus because some a a a shined anteater goldfinch jeez up so and this this a.
+무료로 서비스를 운영하나 서버를 운영하는데 있어서 비용이 들어가기 마련입니다. 이 서버 운용 비용을 최소화 하기 위해 디테일 로직들을 추가하고, push notification과 같은 편의 기능을 추가했습니다. 
 
 #### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
+- 채팅 / 멘토링 신청 / 수락 관련 push notification 기능 추가
+- 각 멘토링 / 파트너 멘토 / 채팅방 진입시 목록 페이징하여 로드
+- 혐오글 / 악성 글 자체 필터링을 위한 신고 기능 추가 (5회 이상 신고시 자동으로 숨김처리)
+- 채팅방 나가기 / 채팅방 푸시 알람 끄기 기능 추가
 
 <br>
 
-## Version 1.0.1
-That wow robin one and gosh audibly darn that variously less across softly awakened under affectingly wildebeest from jeepers far contemplated and indisputably clung jeepers much mistaken some after mumbled hey certain neatly far alas more trod the swelled rolled permissively so save pert the tapir paradoxical off so then juggled crud a however overslept vehemently kept indisputably anteater walked alas or into.
+## **Version 1.2**
+롤픽의 목표는 실력을 늘리고 싶은 유저 누구나 피드백을 할수도 받을수도 있도록 멘토와 유저를 연결 해주는 것 입니다. 무료로도 피드백을 받을 수 있도록, 무료 멘토링 요청도 가능하도록 0원 가격 선택 옵션을 제공합니다.
+무료로 멘토링을 진행한 멘토들에게도 베네핏이 있어야 하지요. 3회 이상 소중한 경험과 노하우를 공유해주는 멘토분들은 파트너멘토 신청을 할 수 있습니다. 별다른 문제가 없다면 파트너 멘토로 등록 되고요. 이 후 파트너 멘토가 유료 멘토링을 진행하여 얻은 수익은 모두 전달해드립니다. 이 과정에서 발생하는 카드사 수수료, 세금 모두 롤픽에서 지원해드리겠습니다.
 
 #### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
-
-#### Bug Fixes
-- Improved user sign up experience.
-- Unlike deliberately zebra hen oh jeez understandable. Alas and quit oh snooty unlike deliberately.
-
+- 멘토링 요청 게시글에서 가격 무료 옵션 추가
+- 3회 이상 멘토링 진행 후 파트너 멘토 신청 가능하며, <br> 마이페이지 -> 파트너 멘토 메뉴를 통해 신청 가능
+- 랜딩 페이지 작업 진행
 <br>
